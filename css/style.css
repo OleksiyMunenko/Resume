@@ -1,0 +1,257 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, ul, ol, p {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.main {
+	 display: flex;
+    width: 1200px;
+    margin: 0% auto;
+	 padding: 15px;
+}
+
+.sidebar {
+	background-color: #a3f2f6;
+}
+
+.photo {
+	width: 350px;
+	margin-bottom: 30px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills,
+.lenguages {
+	margin-left: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #000;
+}
+
+.contacts-title,
+.tech-skills-title,
+.soft-skills-title,
+.lenguages-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+.tech-skills-list,
+.soft-skills-list,
+.lenguages-list {
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.contacts-list {
+	list-style: none;
+	margin-bottom: 10px;
+	
+}
+
+.contacts-item {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+
+.phone:hover,
+.phone:focus,
+.svg:hover,
+.svg:focus,
+.email:hover,
+.email:focus,
+.telegram:hover,
+.telegram:focus,
+.github:hover,
+.github:focus,
+.linkedin:hover,
+.linkedin:focus {
+	color: #f6650c;
+}
+
+.phone,
+.email,
+.telegram,
+.github,
+.linkedin {
+	text-decoration: none;
+	color: #000;
+}
+
+.socials-icon {
+	margin-right: 5px;
+	fill: currentColor;
+}
+
+.tech-skills-item:not(:last-child),
+.soft-skills-item:not(:last-child),
+.lenguages-item:not(:last-child) {
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+
+
+.content {
+	padding: 10px 20px 0px 20px;
+}
+
+.user-title {
+	border-bottom: 2px solid #000;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+.user-name {	
+	font-weight: 900;
+	font-size: 42px;
+	line-height: 55px;
+	color: #000;
+	margin-top: 20px;
+}
+
+.user-position {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 32px;
+	color: #595959;
+}
+
+.summary,
+.work-experience,
+.projects,
+.education {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #000;
+}
+
+.summary-title,
+.projects-title,
+.work-experience-title,
+.education-title {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 10px;
+	margin-top: 10px;	
+	display: block;
+}
+
+.summaru-text {
+	font-size: 18px;
+   line-height: 28px;
+   margin-bottom: 5px;
+}
+
+.projects {
+	padding-right: 30px;
+}
+
+.projects-list {
+	margin-left: 15px;
+}
+
+.project-item {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.project, .project-link {
+   font-size: 18px;
+	margin-right: 7px;
+	color: #000;
+}
+
+.project-link:hover,
+.project-link:focus {
+	color: #f6650c;
+}
+
+.project-git {
+   font-size: 18px;
+   margin-right: 7px;
+	color: #f6650c;
+}
+
+.project-bracket {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+}
+
+.project-info {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.work-position {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+
+.organization {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fb6d3a;
+}
+
+.period {
+	font-size: 12px;
+	line-height: 15px;
+	color: #878686;
+	margin-bottom: 10px;
+}
+
+.work-list {
+	margin-bottom: 10px;
+}
+
+.work-list-item {
+    font-size: 16px;
+    line-height: 24px;
+	 margin-left: 16px;
+}
+
+.university {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fb6d3a;
+	margin-bottom: 5px;
+}
+
+.speciality {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 17px;
+	margin-bottom: 7px;
+}
+
+.education-period {
+	margin: 0;
+	font-size: 12px;
+	line-height: 15px;
+	color: #878686;
+	margin-bottom: 10px;
+}
+
+
+

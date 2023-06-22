@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="./css/style.css" />
 	<title>Oleksii_Mynenko_Front-End Developer</title>
@@ -13,94 +13,102 @@
 <body>
 	<div class="main">
 		<div class="sidebar">
-			<img src="./img/my_photo.jpg" alt="user photo">
-
-			<h3 class="sidebar-contacts">Contacts</h3>
-			<ul class="contacts-list">
-				<li class="contacts-item">
-					<a class="phone" href="tel:+380934816639">
-						<svg width="18" height="18">
-							<use href="./img/icons.svg#icon-phone"></use>
+			<img class="photo" src="./img/my_photo.jpg" alt="user photo">
+			<div class="contacts">
+				<h3 class="contacts-title">Contacts</h3>
+				<ul class="contacts-list">
+					<li class="contacts-item">
+						<a class="phone" href="tel:+380934816639">
+							<svg class="socials-icon" width="18" height="18">
+								<use href="./img/icons.svg#icon-phone"></use>
+							</svg>
+							<span class="item-text">+380934816639</span>
+						</a>
+					</li>
+					<li class="contacts-item">
+						<a class="email" href="mailto:oleksiymun@gmail.com">
+							<svg class="socials-icon" width="18" height="18">
+								<use href="./img/icons.svg#icon-email"></use>
+							</svg>
+							<span class="item-text">oleksiymun@gmail.com</span>
+						</a>
+					</li>
+					<li class="contacts-item">
+						<a class="telegram" href="https://t.me/OleksiyMun">
+							<svg class="socials-icon" width="18" height="18">
+								<use href="./img/icons.svg#icon-telegram"></use>
+							</svg>
+							<span class="item-text">Telegram</span>
+						</a>
+					</li>
+					<li class="contacts-item">
+						<a class="github" href="https://github.com/OleksiyMunenko">
+							<svg class="socials-icon" width="18" height="18">
+								<use href="./img/icons.svg#icon-github"></use>
+							</svg>
+							<span class="item-text">GitHub</span>
+						</a>	
+					</li>
+					<li class="contacts-item">
+						<a class="linkedin" href="https://www.linkedin.com">
+							<svg class="socials-icon" width="18" height="18">
+								<use href="./img/icons.svg#icon-linkedin"></use>
+							</svg>
+							<span class="item-text">LinkedIn</span>
+						</a>
+					</li>
+					<li class="contacts-item">
+						<svg class="socials-icon" width="18" height="18">
+							<use href="./img/icons.svg#icon-location"></use>
 						</svg>
-						<span>+380934816639</span>
-					</a>
-				</li>
-				<li class="contacts-item">
-					<a class="email" href="mailto:oleksiymun@gmail.com">
-						<svg width="18" height="18">
-							<use href="./img/icons.svg#icon-email"></use>
-						</svg>
-						<span>oleksiymun@gmail.com</span>
-					</a>
-				</li>
-				<li class="contacts-item">
-					<a class="telegram" href="https://t.me/OleksiyMun">
-						<svg width="18" height="18">
-							<use href="./img/icons.svg#icon-telegram"></use>
-						</svg>
-						<span>Telegram</span>
-					</a>
-				</li>
-				<li class="contacts-item">
-					<a class="github" href="https://github.com/OleksiyMunenko">
-						<svg width="18" height="18">
-							<use href="./img/icons.svg#icon-github"></use>
-						</svg>
-						<span>GitHub</span>
-					</a>	
-				</li>
-				<li class="contacts-item">
-					<a class="linkedin" href="https://www.linkedin.com">
-						<svg width="18" height="18">
-							<use href="./img/icons.svg#icon-github"></use>
-						</svg>
-						<span>LinkedIn</span>
-					</a>
-				</li>
-				<li class="contacts-item">
-					<svg width="18" height="18">
-						<use href="./img/icons.svg#icon-location"></use>
-					</svg>
-					<span>Kyiv, Ukraine</span>
-				</li>
-			</ul>
-
-			<h3 class="sidebar-tech-skills">Tech Skills</h3>
-			<ul class="tech-skills-list">
-				<li class="tech-skills-item">HTML5</li>
-				<li class="tech-skills-item">CSS3</li>
-				<li class="tech-skills-item">SASS</li>
-				<li class="tech-skills-item">JavaScript</li>
-				<li class="tech-skills-item">NPM</li>
-				<li class="tech-skills-item">Node.js</li>
-				<li class="tech-skills-item">REST API</li>
-				<li class="tech-skills-item">React</li>
-				<li class="tech-skills-item">GIT</li>
-				<li class="tech-skills-item">Figma</li>			
-			</ul>	
-
-			<h3 class="sidebar-soft-skills">Soft Skills</h3>
-			<ul class="soft-skills-list">
-				<li class="soft-skills-item">Team Work</li>
-				<li class="soft-skills-item">Communicative</li>
-				<li class="soft-skills-item">Dependable</li>
-				<li class="soft-skills-item">Punctual</li>
-				<li class="soft-skills-item">Quick learning skills</li>				
-				<li class="soft-skills-item">Strong Adaptation Skills</li>
-			</ul>
-
-			<h3 class="sidebar-lenguages">Lenguages</h3>
-			<ul class="lenguages-list">
-				<li class="lenguages-item">Ukrainian: Native</li>
-				<li class="lenguages-item">English: Pre-intermediate</li>
-			</ul>
+						<span class="item-text">Kyiv, Ukraine</span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="tech-skills">
+				<h3 class="tech-skills-title">Tech Skills</h3>
+				<ul class="tech-skills-list">
+					<li class="tech-skills-item">HTML5</li>
+					<li class="tech-skills-item">CSS3</li>
+					<li class="tech-skills-item">SASS</li>
+					<li class="tech-skills-item">JavaScript</li>
+					<li class="tech-skills-item">NPM</li>
+					<li class="tech-skills-item">Node.js</li>
+					<li class="tech-skills-item">REST API</li>
+					<li class="tech-skills-item">React</li>
+					<li class="tech-skills-item">GIT</li>
+					<li class="tech-skills-item">Figma</li>			
+				</ul>	
+			</div>
+			
+			<div class="soft-skills">
+				<h3 class="soft-skills-title">Soft Skills</h3>
+				<ul class="soft-skills-list">
+					<li class="soft-skills-item">Team Work</li>
+					<li class="soft-skills-item">Communicative</li>
+					<li class="soft-skills-item">Dependable</li>
+					<li class="soft-skills-item">Punctual</li>
+					<li class="soft-skills-item">Quick learning skills</li>				
+					<li class="soft-skills-item">Strong Adaptation Skills</li>
+				</ul>
+			</div>
+			
+			<div class="lenguages">
+				<h3 class="lenguages-title">Lenguages</h3>
+				<ul class="lenguages-list">
+					<li class="lenguages-item">Ukrainian: Native</li>
+					<li class="lenguages-item">English: Pre-intermediate</li>
+				</ul>
+			</div>
+			
 
 		</div>
 		<div class="content">
 
 			<div class="user-title">
-				<h1>Oleksii Mynenko</h1>
-				<h2>Front-End Developer</h2>
+				<h1 class="user-name">Oleksii Mynenko</h1>
+				<h2 class="user-position">Front-End Developer</h2>
 			</div>
 
 			<div class="summary">
@@ -115,30 +123,30 @@
 				<ol class="projects-list">
 					<li class="project-item">
 						<span class="project">
-							<a href="https://oleksiymunenko.github.io/goit-react-hw-03-image-finder/" target="_blank">Search images</a>
-							<a href="https://github.com/OleksiyMunenko/goit-react-hw-03-image-finder" target="_blank">Link</a>
+							<a class="project-link" href="https://oleksiymunenko.github.io/goit-react-hw-03-image-finder/" target="_blank">Search images</a>
+							<a class="project-git" href="https://github.com/OleksiyMunenko/goit-react-hw-03-image-finder" target="_blank">Link</a>
 							<span class="project-bracket">[</span> HTML5, CSS3, JavaScript, React, REST API
                 		<span class="project-bracket">]</span>
 						</span>
 						<p class="project-info">
-							Individual project for searching photos and displaying information. Using external libraries, writing Javascript code, HTML, CSS
+							Individual project for searching photos and displaying information. Using external libraries, writing Javascript code, HTML, CSS.
 						</p>
 					</li>
 					<li class="project-item">
 						<span class="project">
-							<a href="https://oleksiymunenko.github.io/goit-react-hw-03-phonebook/" target="_blank">Phonebook</a>
-							<a href="https://github.com/OleksiyMunenko/goit-react-hw-03-phonebook" target="_blank">Link</a>
+							<a class="project-link" href="https://oleksiymunenko.github.io/goit-react-hw-03-phonebook/" target="_blank">Phonebook</a>
+							<a class="project-git" href="https://github.com/OleksiyMunenko/goit-react-hw-03-phonebook" target="_blank">Link</a>
 							<span class="project-bracket">[</span> HTML5, CSS3, JavaScript, React
                 		<span class="project-bracket">]</span>
 						</span>
 						<p class="project-info">
-							individual project. when adding and removing contacts, changes are saved in local storage.
+							Individual project. When adding and removing contacts, changes are saved in local storage.
 						</p>
 					</li>
 					<li class="project-item">
 						<span class="project">
-							<a href="https://yuliiamay.github.io/project-js-07/index.html" target="_blank">NEWS</a>
-							<a href="https://github.com/YuliiaMay/project-js-07/blob/main/src/js/main/filter-data.js" target="_blank">Link</a>
+							<a class="project-link" href="https://yuliiamay.github.io/project-js-07/index.html" target="_blank">NEWS</a>
+							<a class="project-git" href="https://github.com/YuliiaMay/project-js-07/blob/main/src/js/main/filter-data.js" target="_blank">Link</a>
 							<span class="project-bracket">[</span> HTML5, CSS3, JavaScript, REST API
                 		<span class="project-bracket">]</span>
 						</span>
@@ -175,7 +183,7 @@
 			</div>
 
 			<div class="education">
-				<h2>Education</h2>
+				<h2 class="education-title">Education</h2>
 				<h4 class="university">IT School GoIT (Kyiv)</h4>
           <h4 class="speciality">Full Stack Developer</h4>
           <p class="education-period">
