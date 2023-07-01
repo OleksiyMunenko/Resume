@@ -97,10 +97,13 @@ h1, h2, h3, h4, ul, ol, p {
 .soft-skills-item:not(:last-child),
 .lenguages-item:not(:last-child) {
 	margin-bottom: 5px;
-	font-size: 18px;
 }
 
-
+.tech-skills-item,
+.soft-skills-item,
+.lenguages-item {
+	font-size: 18px;
+}
 
 .content {
 	padding: 10px 20px 0px 20px;
