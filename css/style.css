@@ -40,7 +40,7 @@ h1, h2, h3, h4, ul, ol, p {
 .soft-skills-title,
 .lenguages-title {
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 27px;
 	margin-bottom: 20px;
 }
@@ -59,7 +59,7 @@ h1, h2, h3, h4, ul, ol, p {
 }
 
 .contacts-item {
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 24px;
 	margin-bottom: 5px;
 }
@@ -91,6 +91,7 @@ h1, h2, h3, h4, ul, ol, p {
 .socials-icon {
 	margin-right: 5px;
 	fill: currentColor;
+
 }
 
 .tech-skills-item:not(:last-child),
@@ -102,7 +103,7 @@ h1, h2, h3, h4, ul, ol, p {
 .tech-skills-item,
 .soft-skills-item,
 .lenguages-item {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .content {
@@ -166,13 +167,13 @@ h1, h2, h3, h4, ul, ol, p {
 }
 
 .project-item {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 24px;
 	margin-bottom: 10px;
 }
 
 .project, .project-link {
-   font-size: 16px;
+   font-size: 18px;
 	margin-right: 7px;
 	color: #000;
 }
@@ -190,26 +191,21 @@ h1, h2, h3, h4, ul, ol, p {
 
 .project-bracket {
 	font-style: normal;
-	font-weight: 700;
 	font-size: 18px;
 	line-height: 24px;
 	color: #000;
 }
 
 .project-info {
-	font-weight: 400;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .work-position {
-	font-weight: bold;
 	font-size: 18px;
-	line-height: 20px;
 	margin-bottom: 4px;
 }
 
 .organization {
-	font-weight: 700;
 	font-size: 18px;
 	line-height: 20px;
 	color: #fb6d3a;
@@ -227,7 +223,7 @@ h1, h2, h3, h4, ul, ol, p {
 }
 
 .work-list-item {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 	 margin-left: 16px;
 }
