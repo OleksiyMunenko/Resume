@@ -23,7 +23,7 @@ h1, h2, h3, h4, ul, ol, p {
 
 .photo {
 	width: 350px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .contacts,
@@ -31,7 +31,7 @@ h1, h2, h3, h4, ul, ol, p {
 .soft-skills,
 .lenguages {
 	margin-left: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	border-bottom: 1px solid #000;
 }
 
@@ -42,13 +42,13 @@ h1, h2, h3, h4, ul, ol, p {
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 27px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .tech-skills-list,
 .soft-skills-list,
 .lenguages-list {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	margin-left: 20px;
 }
 
@@ -84,8 +84,12 @@ h1, h2, h3, h4, ul, ol, p {
 .telegram,
 .github,
 .linkedin {
-	text-decoration: none;
 	color: #000;
+}
+
+.phone,
+.email {
+	text-decoration: none;
 }
 
 .socials-icon {
@@ -97,7 +101,7 @@ h1, h2, h3, h4, ul, ol, p {
 .tech-skills-item:not(:last-child),
 .soft-skills-item:not(:last-child),
 .lenguages-item:not(:last-child) {
-	margin-bottom: 5px;
+	margin-bottom: 2.5px;
 }
 
 .tech-skills-item,
@@ -147,15 +151,15 @@ h1, h2, h3, h4, ul, ol, p {
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 27px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	margin-top: 10px;	
 	display: block;
 }
 
 .summaru-text {
-	font-size: 18px;
+	font-size: 20px;
    line-height: 28px;
-   margin-bottom: 5px;
+   margin-bottom: 20px;
 }
 
 .projects {
@@ -167,13 +171,13 @@ h1, h2, h3, h4, ul, ol, p {
 }
 
 .project-item {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 24px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .project, .project-link {
-   font-size: 18px;
+   font-size: 20px;
 	margin-right: 7px;
 	color: #000;
 }
@@ -184,29 +188,30 @@ h1, h2, h3, h4, ul, ol, p {
 }
 
 .project-git {
-   font-size: 18px;
+   font-size: 20px;
    margin-right: 7px;
 	color: #f6650c;
 }
 
 .project-bracket {
 	font-style: normal;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 26px;
 	color: #000;
 }
 
 .project-info {
-	font-size: 18px;
+	font-size: 20px;
+	line-height: 26px;
 }
 
 .work-position {
-	font-size: 18px;
-	margin-bottom: 4px;
+	font-size: 20px;
+	margin-bottom: 5px;
 }
 
 .organization {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 20px;
 	color: #fb6d3a;
 }
@@ -215,22 +220,22 @@ h1, h2, h3, h4, ul, ol, p {
 	font-size: 12px;
 	line-height: 15px;
 	color: #878686;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .work-list {
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 }
 
 .work-list-item {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
 	 margin-left: 16px;
 }
 
 .university {
 
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 24px;
 	color: #fb6d3a;
 	
@@ -238,17 +243,17 @@ h1, h2, h3, h4, ul, ol, p {
 
 .speciality {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 24px;
 	
 }
 
 .education-period {
 	margin: 0;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 15px;
 	color: #878686;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 
